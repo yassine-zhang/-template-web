@@ -1,10 +1,7 @@
-# -template-web
-
-前端流行项目模版，非严格自由难以控制的的项目。
-
-## `package.json`文件依赖插件
-
-```json
+{
+  "name": "-template-web",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -24,8 +21,4 @@
     "prettier": "3.1.0",
     "vite": "^4.4.11"
   }
-```
-
-## `name`、`version`、`private`相关
-
-在`package.json`文件中除了关键的信息，还有几个字段，`name`、`version`、`private`。如果我们不开发npm包就不需要关心这些信息。
+}
