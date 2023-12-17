@@ -2,6 +2,13 @@
 
 前端流行项目模版，非严格自由难以控制的的项目。
 
+## 启动
+
+```shell
+npm install
+npm run prepare # 开启本地husky，已配置commit时自动格式化代码
+```
+
 ## `package.json`文件依赖插件
 
 ```json
